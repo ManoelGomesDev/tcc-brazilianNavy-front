@@ -1,0 +1,47 @@
+.whiteBtn,
+.blueBtn,
+.redBtn,
+.greenBtn,
+.grayBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: 60px;
+    width: 250px;
+    border-radius: 20px;
+    cursor: pointer;
+
+    span {
+        font-size: 1rem;
+    }
+}
+
+.whiteBtn {
+    border: 2px solid var(--primary-color);
+    background-color: var(--white-color);
+}
+
+.blueBtn {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: 2px solid var(--primary-color);
+}
+
+.greenBtn {
+    background-color: var(--safe-color);
+    color: var(--white-color);
+    border: 2px solid var(--safe-color);
+}
+
+.redBtn {
+    background-color: var(--danger-color);
+    color: var(--white-color);
+    border: 2px solid var(--danger-color);
+}
+
+.grayBtn {
+    background-color: var(--gray-color);
+    color: var(--white-color);
+    border: 2px solid var(--gray-color);
+}
